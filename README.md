@@ -58,8 +58,8 @@ To implement a complete DevOps lifecycle for XYZ Software, ensuring automated bu
   ```
   **Example:**
   ```ini
-  slave1 ansible_host=168.31.29.124
-  slave2 ansible_host=168.31.29.96
+  slave1 ansible_host=172.31.27.233
+  slave2 ansible_host=172.31.28.7
   ```
 - Verify Ansible connectivity:
   ```sh
