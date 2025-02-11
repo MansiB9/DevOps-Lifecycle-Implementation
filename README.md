@@ -170,5 +170,3 @@ To implement a complete DevOps lifecycle for XYZ Software, ensuring automated bu
 ✅ **Jenkins Webhooks** trigger automated deployments.
 
 🎯 **Final Output:** Successful implementation of a fully automated DevOps lifecycle!
-
-C:\Users\DELL\Pictures\Screenshots\Screenshot (1235).png
