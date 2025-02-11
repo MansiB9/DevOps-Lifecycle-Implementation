@@ -124,8 +124,8 @@ To implement a complete DevOps lifecycle for XYZ Software, ensuring automated bu
   ```
 - Build and run the Docker container:
   ```sh
-  sudo docker build . -t finalrelease
-  sudo docker run -itd -p 80:80 finalrelease
+  sudo docker build . -t image1
+  sudo docker run -itd --name C1 -p 80:80 image1
   ```
 
 ---
@@ -148,8 +148,8 @@ To implement a complete DevOps lifecycle for XYZ Software, ensuring automated bu
 - Modify **Branch Specifier** to `*/master`.
 - Add Build Steps:
   ```sh
-  sudo docker build . -t finalrelease
-  sudo docker run -itd -p 80:80 finalrelease
+  sudo docker build . -t image1
+  sudo docker run -itd --name C1 -p 80:80 image1
   ```
 
 ---
